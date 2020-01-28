@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* master styles */
+
+body {
+	margin: 0px; 
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+/*nav style*/
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+
+.venstre-side {
+	display: flex;
+}
+
+.nav-wrapper > .venstre-side > div {
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid transparent; 
+	transition: border-bottom 0.5s;
+		
+}
+
+.nav-link-wrapper a {
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+	border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+	color: black;
+}
+
+/*billederforside*/
+
+.items-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-wrapper {
+	position: relative;
+	
+}
+
+.indhold-billeder-baggrund {
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+/* om mig */
+
+.two-colum-wraper {
+	display: grid;
+	grid-template-columns: 1fr 1fr
+
+}
+
+.profile-billede-wrapper {
+	width: 100%;
+	
+}
+	
+.profile-indhold-wrapper {
+	padding: 30px;
+	
+}
